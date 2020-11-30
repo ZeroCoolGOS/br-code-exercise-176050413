@@ -1,0 +1,13 @@
+# ToDos:
+- Refactor a few of the classes that use similar names for there elements and move them into a "standard" class.<br> Example: Previous_release_name, Next_release_name, Current_release_name
+- Break classes into there own files for better organization
+- Implement a better use of Warning and Error
+- Implement use of GITHub APIs
+- Add prompt for GITHub Token (secure string) at start to allow for passing to git command when pushing to remote repo.
+- Add prompt for "Remote Repo Name"
+- Better organize Display flow of messages during run
+- Add support for segmented actions: <br> Create Release Branch? <br> Generate Feature Flag Report? <br> Update to Next Version?
+- Also allow for single prompt (see above)
+- Add support for silent/no interaction execution
+- Add Config file to store potential "hard coded" variables
+- Add CLI switches to cover the (current 3) stages of the process as well as any potential data that needs to be passed to the process.
